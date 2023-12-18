@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: #2c2c2c; /* Gris oscuro */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+header {
+    background: #ffd700; /* Dorado */
+    color: #1a1a1a; /* Texto negro */
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contacto {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye los elementos en el espacio disponible */
+    margin-top: 20px; /* Espacio entre el encabezado y la sección de contacto */
+}
+
+.profile-image {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px; /* Ancho fijo de la imagen */
+    height: 200px; /* Altura fija de la imagen */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+}
+
+section {
+    border-bottom: 1px solid #555; /* Borde gris más oscuro */
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #ffd700; /* Dorado */
+    border-bottom: 2px solid #ffd700; /* Dorado */
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p, li {
+    color: #ddd; /* Texto gris */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resumen, #educacion, #experiencia, #habilidades {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #333; /* Negro más oscuro */
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
